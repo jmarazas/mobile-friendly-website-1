@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    position: fixed;
+    height: 6rem;
+    width: 100%;
+    padding: 0 15rem;
+    background: $white;
+    box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, .1);
+    align-items: center;
+    justify-content: space-between;
+  
+    &__text {
+      font-size: 2rem;
+      cursor: pointer;
+    }
+  
+    &__button button {
+      background: $blue-regular;
+      padding: 1rem;
+      border-radius: .5rem;
+      color: $white;
+      border: none;
+      font-size: 1.5rem;
+    }
+  
+    &__button button:hover {
+      background: $blue-hover;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  
+    &__button button:active {
+      background: $blue-active;
+    }
+}
+
+@media (max-width: 600px){
+  .header {
+    padding: 0 3.5rem;
+    &__text {
+      font-size: 2.2rem;
+    }
+
+    &__button button {
+      padding: 1.3rem;
+      font-size: 1.7rem;
+    }
+  }
+}
