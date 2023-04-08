@@ -35,7 +35,7 @@
         flex-direction: row;
 
         .img {
-            background: url(".app/images/bg-showcase-1.jpg");
+            background: url("./app/images/bg-showcase-1.jpg");
             background-size:cover;
 
         }
@@ -45,7 +45,7 @@
         flex-direction: row-reverse;
 
         .img {
-            background: url(".app/images/bg-showcase-2.jpg");
+            background: url("./app/images/bg-showcase-2.jpg");
             background-size:cover;
         }
     }
@@ -54,7 +54,7 @@
         flex-direction: row;
 
         .img {
-            background: url(".app/images/bg-showcase-3.jpg");
+            background: url("./app/images/bg-showcase-3.jpg");
             background-size:cover;
         }
     }
